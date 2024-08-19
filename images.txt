@@ -6,7 +6,6 @@ docker.getcollate.io/openmetadata/db:1.4.3
 docker.elastic.co/elasticsearch/elasticsearch:8.10.2
 docker.getcollate.io/openmetadata/server:1.4.3
 docker.getcollate.io/openmetadata/ingestion:1.4.3
-                        
-原文链接：https://blog.csdn.net/clj198606061111/article/details/140241732
+
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
