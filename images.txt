@@ -2,7 +2,10 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
-node:12-slim
+docker.getcollate.io/openmetadata/db:1.6.3
+docker.elastic.co/elasticsearch/elasticsearch:8.11.4
+docker.getcollate.io/openmetadata/server:1.6.3
+docker.getcollate.io/openmetadata/ingestion:1.6.3
 
 #支持指定架构
 --platform=linux/x86_64 xiaoyaliu/alist
