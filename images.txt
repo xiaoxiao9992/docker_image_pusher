@@ -1,5 +1,5 @@
 mongo:latest
---platform=linux/arm64 mysql:5.7
+ibex/debian-mysql-server-5.7
 
 
 #支持指定架构
