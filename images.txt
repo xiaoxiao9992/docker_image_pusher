@@ -1,5 +1,5 @@
 mongo:latest
-ibex/debian-mysql-server-5.7
+puppets/hadoop_arm64:1.0
 
 
 #支持指定架构
