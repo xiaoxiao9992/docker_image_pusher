@@ -1,1 +1,1 @@
-supervisor
+ubuntu:2204
