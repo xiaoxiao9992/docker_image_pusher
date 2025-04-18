@@ -1,1 +1,1 @@
-openjdk:8-jre
+arm64v8/ubuntu:24.04
