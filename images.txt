@@ -1,1 +1,1 @@
---platform=linux/arm64/v8 arm64v8/ubuntu:24.04
+--platform=linux/arm64 sbloodys/hadoop:3.3.6
