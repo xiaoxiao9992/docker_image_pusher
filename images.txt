@@ -1,4 +1,1 @@
---platform=linux/arm64 redis:6.2.6
---platform=linux/arm64 nginx:1.20.1
---platform=linux/arm64 postgres:15.4
-
+--platform=linux/arm64 kubernetesui/metrics-scraper:v1.0.8
