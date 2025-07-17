@@ -1,18 +1,11 @@
-calico/cni:v3.14.1
-calico/kube-controllers:v3.14.1 
-calico/node:v3.14.1
-calico/pod2daemon-flexvol:v3.14.1 
-gcr.io/k8s-minikube/storage-provisioner:v5 
-k8s.gcr.io/coredns:1.7.0
-k8s.gcr.io/etcd:3.4.13-0 
-k8s.gcr.io/kube-apiserver:v1.20.13 
-k8s.gcr.io/kube-controller-manager:v1.20.13 
-k8s.gcr.io/kube-proxy:v1.20.13 
-k8s.gcr.io/kube-scheduler:v1.20.13
-k8s.gcr.io/ingress-nginx/controller:v0.47.0
-docker.io/jettech/kube-webhook-certgen:v1.5.1
-docker.io/jettech/kube-webhook-certgen:v1.5.1 
-k8s.gcr.io/ingress-nginx/controller:v0.44.0
-docker.io/jettech/kube-webhook-certgen:v1.5.1
-docker.io/kubernetesui/dashboard:v2.1.0
-docker.io/kubernetesui/metrics-scraper:v1.0.4
+--platform=linux/arm64 docker.io/kubernetesui/dashboard:v2.7.0
+--platform=linux/arm64 docker.io/kubernetesui/metrics-scraper:v1.0.4
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kicbase:v0.0.47
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-apiserver:v1.23.9
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-controller-manager:v1.23.9
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy:v1.23.9
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-scheduler:v1.23.9
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/etcd:3.5.1-0
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/coredns:v1.8.6
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.6
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/storage-provisioner:v5
