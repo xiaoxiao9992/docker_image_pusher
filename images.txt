@@ -1,11 +1,4 @@
---platform=linux/arm64 docker.io/kubernetesui/dashboard:v2.7.0
---platform=linux/arm64 docker.io/kubernetesui/metrics-scraper:v1.0.4
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kicbase:v0.0.47
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-apiserver:v1.23.9
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-controller-manager:v1.23.9
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy:v1.23.9
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-scheduler:v1.23.9
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/etcd:3.5.1-0
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/coredns:v1.8.6
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.6
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/storage-provisioner:v5
+--platform=linux/arm64 redis:6.2.6
+--platform=linux/arm64 nginx:1.20.1
+--platform=linux/arm64 postgres:15.4
+
